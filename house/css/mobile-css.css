@@ -1,0 +1,56 @@
+
+#container{
+	width: 690px;
+	height: 930px;
+	padding: 30px;
+}
+.cell{
+	width: 150px;
+	height: 210px;
+	border-radius: 6px;
+}
+.number-cell{
+	line-height: 210px;
+	font-size: 40px;
+	box-shadow: 0 6px 10px #888;
+}
+#gameover{
+	width: 600px;
+	height: 400px;
+	font-size: 120px;
+	margin-top:-200px;
+	margin-left:-300px;
+}
+#gameover p{
+	font-size: 36px;
+	margin:40px auto;
+}
+#gameover #goBtn{
+	width: 140px;
+	margin: 40px auto;
+	font-size: 36px;
+	padding: 20px 10px;
+}
+#rule{
+	left: 50px;
+	top:1130px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 5px;
+	font-size: 25px;
+}
+#info{
+	margin-left:-340px;
+	width: 680px;
+	height: 100px;
+	top:1200px;
+}
+#info li{
+	font-size: 24px;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	margin:5px 10px;
+	margin-bottom: 0;
+}
