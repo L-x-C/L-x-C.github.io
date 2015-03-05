@@ -1,0 +1,94 @@
+body{
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#708EAA), to(#17313A));
+	background: -webkit-radial-gradient(circle, #708EAA, #17313A);
+	background: -moz-radial-gradient(circle, #708EAA, #17313A);
+	background: -o-radial-gradient(circle, #708EAA, #17313A);
+	background: -ms-radial-gradient(circle, #708EAA, #17313A);
+	background: radial-gradient(circle, #708EAA, #17313A);
+	background-color: #708EAA;
+}
+/*搜索栏*/
+
+.nav{
+	margin: 25px auto;
+	display:table;
+}
+.nav li a{
+	color:#282828;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: '幼圆','微软雅黑';
+	-webkit-transition:linear 130ms;
+	-moz-transition:linear 130ms;
+	-o-transition:linear 130ms;
+	-ms-transition:linear 130ms;
+	transition:linear 130ms;
+}
+#searchBar{
+	padding: 10px;
+}
+#searchInput{
+	-webkit-transition:linear 250ms;
+	-moz-transition:linear 250ms;
+	-o-transition:linear 250ms;
+	-ms-transition:linear 250ms;
+	transition:linear 250ms;
+	border-radius: 20px;
+}
+#searchBtn{
+	background: #F47564;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: '幼圆','微软雅黑';
+	color: #fff;
+	margin-top: -1px;
+	-webkit-transition:linear 250ms;
+	-moz-transition:linear 250ms;
+	-o-transition:linear 250ms;
+	-ms-transition:linear 250ms;
+	transition:linear 250ms;
+}
+
+
+/*导航内容*/
+h1{
+	font-family: "微软雅黑";
+	color:#fff;
+}
+hr{
+	background: #80C1D5;
+	height: 1px;
+	border:0;
+}
+#stockHr{
+	background: #FFA26F;
+}
+#videoHr{
+	background: #85AE52;
+}
+#shoppingHr{
+	background: #EDDB6B;
+}
+.content .website{
+	padding:0;
+	height: auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.content a{
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+.content div div{
+	position: absolute;
+	display: none;
+	background-color: #000;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	text-align: center;
+	color:#fff;
+	font-size:22px;
+	font-weight: bold;
+	font-family: '幼圆','微软雅黑';
+}
