@@ -1,0 +1,212 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html{
+	/*height: 120%;*/
+	font-family: Arial,"幼圆","微软雅黑";
+}
+body{
+	/*height: 120%;*/
+	/*width: 100%;*/
+	/*overflow: hidden;*/
+}
+/*header*/
+#header{
+	width: 900px;
+	height: 60px;
+	line-height: 60px;	
+	margin: 30px auto;
+	text-align: center;
+}
+#header li{
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+#header h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+#header #gameBtn{
+	
+	padding: 10px 10px;
+	color:#fff;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 15px auto;
+	background: #27AE60;
+}
+#header #gameBtn:hover{
+	background: #6BD1E8;
+	box-shadow: 0 0 0 2px #fff,0 0 0 3px #6BD1E8;
+}
+#header p{
+	font-size: 25px;
+}	
+
+
+/*container*/
+#container{
+	width: 345px;
+	height: 465px;
+	padding: 15px;
+	margin: 0 auto;
+	background: #CFE6DF;
+	border-radius: 10px;
+	position: relative;
+}
+.cell{
+	width: 75px;
+	height: 105px;
+	border-radius: 6px;
+	background: #BBD9D9;
+	position: absolute;
+}
+.number-cell{
+	line-height: 105px;
+	border-radius: 6px;
+	text-align: center;
+	position: absolute;
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: 0 3px 5px #888;
+}
+
+/*gameover界面*/
+#gameover{
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	background: url(bg.png);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-100px;
+	margin-left:-150px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	display: none;
+}
+#gameover p{
+	font-size: 18px;
+	margin:20px auto;
+}
+#gameover #goBtn{
+	width: 70px;
+	margin: 20px auto;
+	font-size: 18px;
+	background: #27AE60;
+	padding: 10px 5px;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*信息栏*/
+#info{
+	position: absolute;
+	bottom: 8px;
+	left: 50%;
+	margin-left:-440px;
+	width: 880px;
+	height: 20px;
+	overflow: hidden;
+}
+#info li{
+	font-size: 14px;
+	float: left;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 10px;
+	border-radius: 3px;
+	background: #27AE60;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+#info li:after{
+	content: "";
+	width: 80px;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left:20px;
+	z-index: -1;
+}
+#info li:last-of-type:after{
+	content:none;
+}
+
+#rule{
+	position: absolute;
+	font-size: 14px;
+	bottom: 8px;
+	left: 100px;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 10px;
+	border-radius: 3px;
+	background: #FF6680;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0 0 5px 1px #000;
+}
